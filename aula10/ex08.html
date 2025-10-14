@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div id="soma">
+        <h2>Soma</h2>
+        <input type="number" name="num1" id="inum1"> +
+        <input type="number" name="num2" id="inum2">
+        <input type="button" value="Calcular" onclick="somar()">
+        <div id="res">
+            Resultado
+        </div>
+    </div>
+    <div id="sub">
+        <h2>Subtração</h2>
+        <input type="number" name="nume1" id="inume1"> +
+        <input type="number" name="nume2" id="inume2">
+        <input type="button" value="Calcular" onclick="sub()">
+        <div id="resu">
+            Resultado
+        </div>
+
+    </div>
+    <script>
+        function somar(){
+            var num1 = window.document.querySelector('input#inum1')
+            var num2 = window.document.querySelector('input#inum2')
+            var res = window.document.querySelector('div#res')
+            var nu1 = Number(num1.value)
+            var nu2 = Number(num2.value)
+            var s = nu1 + nu2
+            res.innerHTML = `A soma de ${nu1} com ${nu2} é: ${s}`
+        }
+
+        function sub(){
+            var num1 = window.document.querySelector('#sub>#inume1')
+            var num2 = window.document.querySelector('#sub>#inume2')
+            var res = window.document.querySelector('#resu')
+            var nu1 = Number(num1.value)
+            var nu2 = Number(num2.value)
+            var s = nu1 - nu2
+            res.innerHTML = `A subtração entre ${nu1} e ${nu2} é: ${s}`
+        }
+    </script>
+</body>
+</html>

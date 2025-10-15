@@ -36,3 +36,10 @@ main>div{
 main>div>p{
     margin: 30px 0px 0px 10px;
 }
+
+img#foto{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    text-align: center;
+}

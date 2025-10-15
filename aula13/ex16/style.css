@@ -1,0 +1,33 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+body{
+    background-color: rgb(194, 194, 118);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+body>h1{
+    text-align: center;
+    margin: 20px 0px;  
+} 
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: 400px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.274);  
+} 
+main> div>img{
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+}

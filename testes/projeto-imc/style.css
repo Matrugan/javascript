@@ -75,3 +75,9 @@ main h1{
     margin: 30px 10px;
     color: yellow;
 }
+
+@media (max-width:800px){
+    main{
+        width: 95%;
+    }
+}

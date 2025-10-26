@@ -9,15 +9,16 @@
 <body>
     <main>
         <div id="semaforo">
-            <div class="vermelho"></div>
-            <div class="amarelo"></div>
-            <div class="verde"></div>
+            <div id="vermelho"></div>
+            <div id="amarelo"></div>
+            <div id="verde"></div>
         </div>
         <div id="botao">
-            <button>Vermelho</button>
-            <button>Amarelo</button>
-            <button>Verde</button>
-            <button>Automático</button>
+            <button onclick="ligarverm()">Vermelho</button>
+            <button onclick="ligarama()">Amarelo</button>
+            <button onclick="ligarverd()">Verde</button>
+            <button onclick="ligartodo()">Automático</button>
+            <button onclick="desligar()"> desligar</button>
         </div>
     </main>
     <script src="script.js"></script>

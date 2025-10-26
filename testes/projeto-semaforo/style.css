@@ -22,24 +22,24 @@ body{
     border-radius: 10px;
 }
 
-#semaforo .vermelho{
+#vermelho{
     height: 30%;
     width: 85%;
-    background-color: red;
+    background-color: darkred;
     border-radius: 50%;
 }
 
-#semaforo .amarelo{
+#amarelo{
     height: 30%;
     width: 85%;
-    background-color: yellow;
+    background-color: rgb(140, 140, 2);
     border-radius: 50%;
 }
 
-#semaforo .verde{
+#verde{
     height: 30%;
     width: 85%;
-    background-color: green;
+    background-color: darkgreen;
     border-radius: 50%;
 }
 
